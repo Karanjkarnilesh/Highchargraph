@@ -1,2 +1,4 @@
-git clone Repo
-Run index.html 
+Step1 : git clone Repo
+
+
+Step2 : Run index.html 
