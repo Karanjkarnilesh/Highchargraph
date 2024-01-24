@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <title>HighCharts</title>
+</head>
+<body>
+    <div id="container">
+        </div>
+        <script>
+            Highcharts.chart('container',{
+                chart:{
+                type:'column',
+                },
+            
+                title:{
+                text:"Nilesh"
+                },
+                yAxis:{
+                    title:{
+                    text:'Fruits Eaten'
+                    }
+                },
+                xAxis:{
+                    categories:['Apple','Banana','Orange']
+                },
+                series:[{
+                    name:'jhon',
+                    data:[1,2,3]
+                },{
+                    name:'jane',
+                    data:[2,4,8]
+                }]
+            });
+        </script>
+</body>
+</html>
